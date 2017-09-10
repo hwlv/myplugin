@@ -1,2 +1,2 @@
 # fullPage.js
-![preview](https://raw.github.com/alvarotrigo/fullPage.js/master/examples/imgs/intro.png)
+![preview](https://github.com/hwlv/myplugin/blob/master/fullpage/image/demo.png)
