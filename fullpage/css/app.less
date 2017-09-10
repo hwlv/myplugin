@@ -1,0 +1,75 @@
+
+html, body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+#container, .sections, .section {
+  height: 100%;
+  position: relative;
+}
+
+#container {
+  .pages {
+    position: fixed;
+    list-style: none;
+    li {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #fff;
+      margin: 10px 5px;
+      cursor: pointer;
+      box-sizing: content-box;
+      &.active {
+        width: 14px;
+        height: 14px;
+        border: 2px solid #FFFE00;
+        background: none;
+        margin-left: 0;
+      }
+    }
+    &.horizontal {
+      left: 50%;
+      bottom: 10px;
+      li {
+        display: inline-block;
+        vertical-align: middle;
+      }
+    }
+    &.vertical {
+      right: 10px;
+      top: 50%;
+    }
+  }
+}
+
+#section0, #section1, #section2, #section3 {
+  background-color: #000;
+  background-size: cover;
+  background-position: 50% 50%;
+  text-align: center;
+  color: white;
+}
+
+#section0 {
+  background-image: url(../image/bg1.png);
+}
+
+#section1 {
+  background-image: url(../image/bg2.png);
+}
+
+#section2 {
+  background-image: url(../image/bg3.png);
+}
+
+#section3 {
+  background-image: url(../image/bg4.png);
+}
+
+.left {
+  float: left;
+  width: 25%;
+}
