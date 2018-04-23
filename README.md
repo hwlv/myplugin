@@ -27,4 +27,4 @@
     });
 ````
 #### 赏一杯咖啡给小编。
-![preview](https://github.com/hwlv/myplugin/blob/master/fullpage/image/code.png)
+![preview](fullpage/image/code.png)
